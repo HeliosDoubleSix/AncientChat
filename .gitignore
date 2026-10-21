@@ -1,0 +1,10 @@
+# Strict publication allowlist: all unlisted files are ignored.
+# This excludes raw chats, databases, archives, attachments, logs, caches,
+# credentials, hidden/private configuration, and synthetic smoke output.
+*
+!/.gitignore
+!/LICENSE
+!/README.md
+!/scripts/
+/scripts/*
+!/scripts/ancient_chat_archive.py
